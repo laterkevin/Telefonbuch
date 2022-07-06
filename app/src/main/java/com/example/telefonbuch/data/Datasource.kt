@@ -1,6 +1,5 @@
 package com.example.telefonbuch.data
 
-import com.example.telefonbuch.R
 import com.example.telefonbuch.data.model.Contact
 
 class Datasource() {
@@ -9,27 +8,38 @@ class Datasource() {
         return listOf(
             Contact(
                 "Placeholder",
-                42.66,
-                R.drawable.pgo_en_72,
-                false
+                "Max Mustermann",
+                0,
+                "Teststraße",
+                17.10.1983
             ),
             Contact(
                 "Placeholder",
-                36.91,
-                R.drawable.pgo_en_3,
-                false
+                "Max Mustermann",
+                0,
+                "Teststraße",
+                17.10.1983
             ),
             Contact(
                 "Placeholder",
-                34.86,
-                R.drawable.pgo_en_24,
-                true
+                "Max Mustermann",
+                0,
+                "Teststraße",
+                17.10.1983
             ),
             Contact(
                 "Placeholder",
-                34.86,
-                R.drawable.pgo_en_17,
-                true
+                "Max Mustermann",
+                0,
+                "Teststraße",
+                17.10.1983
+            ),
+            Contact(
+                "Placeholder",
+                "Max Mustermann",
+                0,
+                "Teststraße",
+                17.10.1983
             ),
         )
     }

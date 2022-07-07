@@ -25,8 +25,9 @@ class ContactAdapter(
 
         val item = dataset[position]
 
-        holder.binding.cardImage.setImageResource(item.imageResource)
-
+        holder.binding.avatarImage.setImageResource(item.imageResource)
+        holder.binding.nameEdit.text = item.name
+        holder.binding.telefonEdit.text = item.phoneNumber
 
 
 

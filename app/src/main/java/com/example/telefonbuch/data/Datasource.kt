@@ -1,5 +1,6 @@
 package com.example.telefonbuch.data
 
+import com.example.telefonbuch.R
 import com.example.telefonbuch.data.model.Contact
 
 class Datasource() {
@@ -7,40 +8,83 @@ class Datasource() {
     fun loadContact(): List<Contact> {
         return listOf(
             Contact(
-                "Placeholder",
+                R.drawable.avatar,
                 "Max Mustermann",
-                0,
-                "Teststraße",
-                17.10.1983
+                "017732423234",
+
             ),
             Contact(
-                "Placeholder",
+                R.drawable.avatar,
                 "Max Mustermann",
-                0,
-                "Teststraße",
-                17.10.1983
-            ),
+                "017732423234",
+
+                ),
             Contact(
-                "Placeholder",
+                R.drawable.avatar,
                 "Max Mustermann",
-                0,
-                "Teststraße",
-                17.10.1983
-            ),
+                "017732423234",
+
+                ),
             Contact(
-                "Placeholder",
+                R.drawable.avatar,
                 "Max Mustermann",
-                0,
-                "Teststraße",
-                17.10.1983
-            ),
+                "017732423234",
+
+                ),
             Contact(
-                "Placeholder",
+                R.drawable.avatar,
                 "Max Mustermann",
-                0,
-                "Teststraße",
-                17.10.1983
-            ),
+                "017732423234",
+
+                ),
+            Contact(
+                R.drawable.avatar,
+                "Max Mustermann",
+                "017732423234",
+
+                ),
+            Contact(
+                R.drawable.avatar,
+                "Max Mustermann",
+                "017732423234",
+
+                ),
+            Contact(
+                R.drawable.avatar,
+                "Max Mustermann",
+                "017732423234",
+
+                ),
+            Contact(
+                R.drawable.avatar,
+                "Max Mustermann",
+                "017732423234",
+
+                ),
+            Contact(
+                R.drawable.avatar,
+                "Max Mustermann",
+                "017732423234",
+
+                ),
+            Contact(
+                R.drawable.avatar,
+                "Max Mustermann",
+                "017732423234",
+
+                ),
+            Contact(
+                R.drawable.avatar,
+                "Max Mustermann",
+                "017732423234",
+
+                ),
+            Contact(
+                R.drawable.avatar,
+                "Max Mustermann",
+                "017732423234",
+
+                ),
         )
     }
 }

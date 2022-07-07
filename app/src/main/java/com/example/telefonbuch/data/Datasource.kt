@@ -5,84 +5,84 @@ import com.example.telefonbuch.data.model.Contact
 
 class Datasource() {
 
-    fun loadContact(): List<Contact> {
-        return listOf(
+    fun loadContact(): MutableList<Contact> {
+        return mutableListOf(
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Ruth P. Soto",
+                "+16894454220",
 
             ),
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Laverne R. McClain",
+                "+17276011856",
 
                 ),
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Randy B. Walker",
+                "+13646512711",
 
                 ),
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Sally D. Lewis",
+                "+18789018231",
 
                 ),
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Maureen R. Rodriquez",
+                "+16194782584",
 
                 ),
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Elizabeth T. Tucker",
+                "+15885614746",
 
                 ),
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Michelle T. Ryder",
+                "+18785293261",
 
                 ),
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Cheri S. Lawson",
+                "+12059989105",
 
                 ),
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Rickey S. Collier",
+                "+18592929573",
 
                 ),
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Michelle R. Cameron",
+                "+14453331984",
 
                 ),
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Wayne K. Cox",
+                "+12815925690",
 
                 ),
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Joyce T. Russell",
+                "+15044351692",
 
                 ),
             Contact(
                 R.drawable.avatar,
-                "Max Mustermann",
-                "017732423234",
+                "Anthony E. George",
+                "+17168738370",
 
                 ),
         )
